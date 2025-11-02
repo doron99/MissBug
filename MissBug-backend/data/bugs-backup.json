@@ -1,0 +1,12 @@
+[
+  { "_id": "bug001", "title": "Cannot save a Car", "severity": 3, "createdAt": 1542107359454 },
+  { "_id": "bug002", "title": "Login fails intermittently", "severity": 4, "createdAt": 1542207359454 },
+  { "_id": "bug003", "title": "UI crashes on mobile", "severity": 5, "createdAt": 1542307359454 },
+  { "_id": "bug004", "title": "Payment gateway timeout", "severity": 5, "createdAt": 1542407359454 },
+  { "_id": "bug005", "title": "Search returns empty results", "severity": 2, "createdAt": 1542507359454 },
+  { "_id": "bug006", "title": "Profile image upload broken", "severity": 3, "createdAt": 1542607359454 },
+  { "_id": "bug007", "title": "Notifications not received", "severity": 3, "createdAt": 1542707359454 },
+  { "_id": "bug008", "title": "Incorrect password reset email", "severity": 2, "createdAt": 1542807359454 },
+  { "_id": "bug009", "title": "Dashboard metrics not updating", "severity": 4, "createdAt": 1542907359454 },
+  { "_id": "bug010", "title": "App freezes on logout", "severity": 4, "createdAt": 1543007359454 }
+]
