@@ -1,15 +1,15 @@
 [
     {
         "_id": "bug001",
-        "title": "Cannot save a Car",
+        "title": "Cannot save a bug",
         "severity": 3,
         "createdAt": 1542107359454
     },
     {
         "_id": "bug002",
         "title": "Login fails intermittently",
-        "severity": 4,
-        "createdAt": 1542207359454
+        "severity": 0,
+        "createdAt": 1762147553260
     },
     {
         "_id": "bug003",
