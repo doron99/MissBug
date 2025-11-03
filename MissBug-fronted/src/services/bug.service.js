@@ -26,15 +26,15 @@ function query(filterBy = {}) {
     return axios.get(BASE_URL)
         .then(res => res.data)
         .then(bugs => {
-            if (!filterBy.txt) filterBy.txt = ''
-            if (!filterBy.title) filterBy.title = ''
-             if (!filterBy.severity) filterBy.severity = -Infinity
-             const regExp = new RegExp(filterBy.txt, 'i')
-             return bugs.filter(bug =>
-                 regExp.test(bugs.title) &&
-                 bug.title == filterBy.title &&
-                 bug.severity >= filterBy.severity
-             )
+            
+            if (!filterBy.txt) filterBy.txt = '';
+            if (!filterBy.title) filterBy.title = '';
+            if (!filterBy.severity) filterBy.severity = 0;
+            const regExp = new RegExp(filterBy.txt, 'i')
+            return bugs.filter(bug =>
+                (regExp.test(bug.title)) &&
+                    bug.severity >= filterBy.severity
+            )
         })
 }
 
